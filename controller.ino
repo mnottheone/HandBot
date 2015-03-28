@@ -11,6 +11,7 @@ void setup()
   vw_set_tx_pin(12);
   vw_setup(4000);// speed of data transfer Kbps
 }
+// Need to read sensors data to achieve final target i.e to control by hand //
 
 // should be snchronised with reciever by same delays
 void loop()
